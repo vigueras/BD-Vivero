@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BD-Vivero</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="id_planta">ID Planta:</string>
+    <string name="nombre_planta">Nombre de la Planta:</string>
+    <string name="tipo_planta">tipo de Planta:</string>
+    <string name="color_planta">Color de Planta:</string>
+    <string name="precio">Precio</string>
+
+
+    <string name="alta">Alta</string>
+    <string name="baja">Baja</string>
+    <string name="consulta">Consultar</string>
+    <string name="modificar">Modificar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="ver">Mostrar</string>
+
+
+</resources>

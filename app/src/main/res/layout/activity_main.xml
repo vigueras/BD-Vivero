@@ -1,0 +1,147 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffc3f5ff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffd9faff">
+
+
+        <TextView
+            android:text="@string/id_planta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idPlanta"
+            android:inputType="phone"
+            android:digits="1234567890"/>
+
+        <TextView
+            android:text="@string/nombre_planta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombPlan" />
+
+        <TextView
+            android:text="@string/tipo_planta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipoPla" />
+
+        <TextView
+            android:text="@string/color_planta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/color" />
+
+        <TextView
+            android:text="@string/precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/precio" />
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/alta"
+                android:id="@+id/btn_alta"
+                android:onClick="alta"
+                android:layout_weight="1"
+                android:drawableRight="@android:drawable/ic_menu_send" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/consulta"
+                android:id="@+id/btn_consultar"
+                android:onClick="consulta"
+                android:layout_weight="1"
+                android:drawableRight="@android:drawable/ic_menu_today" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/baja"
+                android:id="@+id/btn_baja"
+                android:onClick="baja"
+                android:layout_weight="1"
+                android:drawableRight="@android:drawable/ic_delete" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/modificar"
+                android:id="@+id/btn_modificar"
+                android:onClick="modificacion"
+                android:layout_weight="1"
+                android:drawableRight="@android:drawable/ic_menu_edit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/limpiar"
+                android:id="@+id/btn_limpiar"
+                android:onClick="limpiar"
+                android:layout_weight="1"
+                android:drawableRight="@android:drawable/ic_menu_delete" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver"
+                android:id="@+id/ver"
+                android:onClick="ver"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.20"
+                android:textColor="@android:color/background_dark" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
